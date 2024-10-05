@@ -21,3 +21,9 @@ Numerical description of moon's phase. Its range is 0-7 and matches this descrip
 - 7 = 🌘 (Waning Crescent Moon).
 ### Phase
 Ratio of current moon cycle using `next_new_moon` relative to `previous_new_moon` and [ephem](https://pypi.org/project/ephem/) Python's library. 0.0 would mean the phase just started and 1.0 it ended. Therefore, 0.5 means full moon, 0.25 First Quarter Moon and 0.75 Last Quarter Moon.
+
+## Python scripts
+### moon_data_ephem.py
+Script used to calculate `moon_phases_UTC_1800-2050.csv`. It relies on [ephem](https://pypi.org/project/ephem/) Python's library.
+### moon_data_no_libs.py
+Script which does not depend on external libraries. Its calculations for moon phases may not be as accurate as those above, but are useful if there's no access to pip and/or faster calculations are needed.
