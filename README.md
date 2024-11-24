@@ -2,6 +2,8 @@
 Daily moon phases in csv and scripts to calculate lunar data.
 
 ## moon_phases_UTC_1800-2050.csv
+Clone this repository or [download it as a ZIP file](https://github.com/isaacbernat/moon-data/archive/refs/heads/main.zip) or [download `moon_phases_UTC_1800-2050.csv` file](https://raw.githubusercontent.com/isaacbernat/moon-data/refs/heads/main/moon_phases_UTC_1800-2050.csv)
+
 Implementation used to calculate data available in this repo, see [moon_data_ephem.py](https://github.com/isaacbernat/moon-data/blob/main/moon_data_ephem.py)
 
 The csv has one entry per day from 1800 until 2050. Each daily entry has 4 columns with the following info:
